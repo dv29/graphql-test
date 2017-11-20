@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Backend-api",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon --inspect=5001 --config nodemon.js src/server.js",
+    "seed": "node src/user/user.seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deep Vora",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-hapi": "1.1.6",
+    "bluebird": "3.5.1",
+    "config": "1.26.2",
+    "faker": "4.1.0",
+    "graphql": "0.11.7",
+    "hapi": "16.6.2",
+    "hapi-swagger": "7.8.1",
+    "inert": "4.2.1",
+    "mongoose": "4.12.1",
+    "vision": "4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.8.0",
+    "eslint-config-airbnb-base": "12.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-promise": "3.6.0",
+    "nodemon": "1.12.1"
+  }
+}
